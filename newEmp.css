@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.dashboard-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.navbar {
+    background-color: #004d99;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.brand h1 {
+    margin: 0;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+}
+
+.search input {
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.language {
+    padding-right: 20px;
+}
+
+.sidebar {
+    background-color: #004d99;
+    color: #ffffff;
+    padding: 20px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar ul li {
+    padding: 10px 0;
+    cursor: pointer;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.profile {
+    display: flex;
+}
+
+.profile-image {
+    margin-right: 20px;
+}
+
+.profile-image input[type="file"] {
+    display: none;
+}
+
+.profile-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.profile-details label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.profile-details input[type="text"],
+.profile-details input[type="email"],
+.profile-details input[type="password"],
+.profile-details input[type="date"] {
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.profile-details button {
+    padding: 10px 20px;
+    background-color: #004d99;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.profile-details button:hover {
+    background-color: #1a76cf;
+}
